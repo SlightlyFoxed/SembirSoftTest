@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e45ffc0a-7e70-4e6e-bf39-7e2b349b430e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/globalsqa/ConfigProps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/globalsqa/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/globalsqa/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/globalsqa/TransactionsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/globalsqa/UserPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/allure.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/credentials.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/suiteGlobalsqa.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/globalsqa/RealisationMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/globalsqa/Retry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/globalsqa/Setups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/globalsqa/Test1.java" afterDir="false" />
-    </list>
+    <list default="true" id="e45ffc0a-7e70-4e6e-bf39-7e2b349b430e" name="Changes" comment="Completed test task" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,6 +92,14 @@
       <option name="presentableId" value="Default" />
       <updated>1713737913954</updated>
     </task>
+    <task id="LOCAL-00001" summary="Completed test task">
+      <created>1713871687089</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713871687089</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +112,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Completed test task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed test task" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
