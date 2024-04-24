@@ -1,7 +1,6 @@
 package com.globalsqa;
 
 import io.qameta.allure.Flaky;
-import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
@@ -11,14 +10,14 @@ import static com.globalsqa.Setups.*;
 
 public class Test1 {
 
-    RealisationMethods realisationMethods = PageFactory.initElements(driver, RealisationMethods.class);
+    RealisationMethods realisationMethods = new RealisationMethods();
 
     private static final ConfigProps confProp = ConfigProps.conf;
 
 
-    @Test(suiteName = "Тестирование банковского аккаунта", testName = "Вход пользователя и изменение баланса",retryAnalyzer = Retry.class)
+    @Test(suiteName = "Тестирование банковского аккаунта", testName = "Вход пользователя и изменение баланса", retryAnalyzer = Retry.class)
     @Flaky
-    public void testCase1 () throws MalformedURLException {
+    public void testCase1() throws MalformedURLException {
 
         settings();
 

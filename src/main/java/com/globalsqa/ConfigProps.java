@@ -7,9 +7,10 @@ import org.aeonbits.owner.ConfigFactory;
 @Config.Sources({
         "system:properties",
         "system:env",
-        "file:src/main/resources/credentials.properties"
+        "file:src/main/resources/expectedresults.properties"
 })
 public interface ConfigProps extends Config {
+
     ConfigProps conf = ConfigFactory.create(ConfigProps.class);
 
     @Key("required.balance")
